@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F826FED9-4AA9-4F5F-A4E7-1433FE0C4EB6}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{69B98667-8286-4319-8918-04216A0B3B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client-credentials-flow", "src\client-credentials-flow\client-credentials-flow.csproj", "{998490DB-CD58-4551-AB3F-51D9EF8BD980}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{998490DB-CD58-4551-AB3F-51D9EF8BD980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{998490DB-CD58-4551-AB3F-51D9EF8BD980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{998490DB-CD58-4551-AB3F-51D9EF8BD980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{998490DB-CD58-4551-AB3F-51D9EF8BD980}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{998490DB-CD58-4551-AB3F-51D9EF8BD980} = {69B98667-8286-4319-8918-04216A0B3B3A}
+	EndGlobalSection
+EndGlobal

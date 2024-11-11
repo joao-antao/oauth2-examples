@@ -1,0 +1,6 @@
+﻿services:
+  client-credentials-flow:
+    image: client-credentials-flow
+    build:
+      context: .
+      dockerfile: src/client-credentials-flow/Dockerfile
